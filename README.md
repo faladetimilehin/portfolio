@@ -31,8 +31,3 @@ npm run dev        # http://localhost:5173
 npm test           # unit tests
 npm run build      # production build in dist/
 ```
-
-## Setup checklist
-1. **Calendly:** set `calendly` in `src/data/profile.ts` to your event link. In Calendly, give the event a first custom question such as "Project details" so the enquiry fills in automatically.
-2. **GitHub username:** update `github` in `src/data/profile.ts` if it isn't `faladetimilehin`.
-3. **Netlify:** connect this repo. The build settings come from `netlify.toml`. Under Forms → Notifications, add your email so you're told about each new enquiry.
