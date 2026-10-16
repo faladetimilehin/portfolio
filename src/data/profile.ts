@@ -15,11 +15,11 @@ export const profile = {
   // ← Paste your Calendly event link here (Calendly → Event types → Copy link)
   calendly: 'https://calendly.com/faladetimilehin/30min',
   // ← Optional: add a professional headshot at public/assets/timi.jpg and set this to '/assets/timi.jpg'
-  photo: '' as string,
+  photo: '/assets/timi.jpg' as string,
 };
 
 // Scrolls across the page under the hero
-export const marquee = ['NIBSS', 'PerfectScope', 'Severus', 'Jethro', 'Outlier', '7thLeo Couture', 'Softcom', 'Baby Connect', 'Opeketé Foundation'];
+export const marquee = ['NIBSS', 'CBN', 'PerfectScope', 'Severus', 'Jethro', 'Outlier', 'Paycrow','PatterPlace','7thLeo Couture', 'Softcom', 'Baby Connect', 'Opeketé Foundation'];
 
 export const stats = [
   { value: 8, suffix: '+', label: 'Years building software' },
