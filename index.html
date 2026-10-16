@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timilehin Falade – Senior Software Engineer</title>
+    <meta name="description" content="Timilehin Falade — Senior Software Engineer in Birmingham, UK. React, TypeScript, Node.js, AWS, fintech and AI-powered products. Available for full-time roles and freelance projects." />
+    <meta property="og:title" content="Timilehin Falade – Senior Software Engineer" />
+    <meta property="og:description" content="React · TypeScript · Node.js · AWS · Fintech · AI. Birmingham, UK." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23ff4d1c'/><text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='800' font-size='28' fill='white'>TF</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- Apply saved theme before React loads, so there is no flash -->
+    <script>
+      try {
+        var t = localStorage.getItem('tf-theme');
+        if (t !== 'dark') t = 'light';
+        document.documentElement.dataset.theme = t;
+      } catch (e) { document.documentElement.dataset.theme = 'light'; }
+    </script>
+  </head>
+  <body>
+    <!-- Hidden copy of the freelance form so Netlify Forms detects it at build time -->
+    <form name="freelance-enquiry" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input name="name" /><input name="email" /><input name="company" />
+      <select name="service"></select><select name="budget"></select><select name="timeline"></select>
+      <textarea name="details"></textarea><input name="bot-field" />
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
