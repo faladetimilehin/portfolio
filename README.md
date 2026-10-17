@@ -3,7 +3,7 @@
 [![CI](https://github.com/faladetimilehin/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/faladetimilehin/portfolio/actions/workflows/ci.yml)
 
 **Senior Software Engineer · React, TypeScript, Node.js, AWS, Fintech, AI**
-Birmingham, UK · [Live site](https://faladetimilehin-resume.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/faladetimilehin/) · faladetimilehin@yahoo.com
+Birmingham, UK · [Live site](https://timilehinfaladeportfolio.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/faladetimilehin/) · faladetimilehin@yahoo.com
 
 ## Stack
 - **React 18 + TypeScript**, built with **Vite**
